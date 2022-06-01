@@ -26,7 +26,6 @@ namespace WebAppCadastro.Repository
         {
             _context.Contatos.Add(contato);
             _context.SaveChanges();
-
             return contato;
         }
         public ContatoModel Atualizar(ContatoModel contato)
@@ -43,6 +42,7 @@ namespace WebAppCadastro.Repository
 
             _context.Update(contatoDb);
             _context.SaveChanges();
+
             return contatoDb;
         }
 

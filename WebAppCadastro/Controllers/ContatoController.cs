@@ -12,7 +12,6 @@ namespace WebAppCadastro.Controllers
         {
             _context = context;
         }
-
         public IActionResult Index()
         {
             var listaDeContatos = _context.BuscarTodos();
@@ -41,8 +40,7 @@ namespace WebAppCadastro.Controllers
             {
                 TempData["MensagemErro"] = $"Erro ao cadastrar contato! - Detalhe do erro: {ex.Message}";
                 return RedirectToAction("Index");                
-            }
-            
+            }            
         }
         public IActionResult Editar(int id)
         {
