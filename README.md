@@ -4,12 +4,12 @@
 ### Data do projeto(01/06/2022)
 
 - Pacotes instalados:
-	Microsoft.EntityFrameworkCore
-	Microsoft.EntityFrameworkCore.Design
-	Microsoft.EntityFrameworkCore.Tools
-	Microsoft.EntityFrameworkCore.SqlServer
+	- Microsoft.EntityFrameworkCore
+	- Microsoft.EntityFrameworkCore.Design
+	- Microsoft.EntityFrameworkCore.Tools
+	- Microsoft.EntityFrameworkCore.SqlServer
 
  - Usando Migration: (code first)
-	Add-Migration CriandoTabelaContatos -Context BancoContext
-	Update-Database -Context BancoContext
+	- Add-Migration CriandoTabelaContatos -Context BancoContext
+	- Update-Database -Context BancoContext
 
